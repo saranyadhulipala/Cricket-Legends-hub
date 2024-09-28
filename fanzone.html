@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fan Zone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Fan Zone</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="map.html">Interactive Map</a></li>
+            <li><a href="matches.html">Top Matches</a></li>
+            <li><a href="fanzone.html">Fan Zone</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Share Your Stories</h2>
+            <form id="fan-form">
+                <label for="story">Your Favorite Player Story:</label>
+                <textarea id="story" name="story" rows="4" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Vote for the Greatest Player</h2>
+            <form id="vote-form">
+                <label>
+                    <input type="radio" name="player" value="Sachin Tendulkar" required>
+                    Sachin Tendulkar
+                </label><br>
+                <label>
+                    <input type="radio" name="player" value="Virat Kohli">
+                    Virat Kohli
+                </label><br>
+                <label>
+                    <input type="radio" name="player" value="MS Dhoni">
+                    MS Dhoni
+                </label><br>
+                <label>
+                    <input type="radio" name="player" value="Rohit Sharma">
+                    Rohit Sharma
+                </label><br>
+                <label>
+                    <input type="radio" name="player" value="Kapil Dev">
+                    Kapil Dev
+                </label><br>
+                <button type="submit">Vote Now</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Cricket Legends Hub</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
